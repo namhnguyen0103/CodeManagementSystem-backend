@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:API.Controllers.AccountController.GetAllAsync">
+            <summary>
+            Returns all accounts
+            </summary>
+        </member>
+        <member name="M:API.Controllers.AccountController.GetCustomerAccounts">
+            <summary>
+            Returns all customer accounts
+            </summary>
+        </member>
+        <member name="M:API.Controllers.AccountController.GetAdminAccounts">
+            <summary>
+            Returns all admin accounts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AccountController.CustomerLoginAsync(API.Dtos.Account.LoginDto)">
+            <summary>
+            Logs customer into system
+            </summary>
+            <param name="loginInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AccountController.CustomerRegisterAsync(API.Dtos.Account.CreateAccountDto)">
+            <summary>
+            Registers a customer account
+            </summary>
+            <param name="accountDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AccountController.AdminRegisterAsync(API.Dtos.Account.CreateAccountDto)">
+            <summary>
+            Registers an admin account
+            </summary>
+            <param name="accountDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AccountController.SuperAdminRegisterAsync(API.Dtos.Account.CreateAccountDto)">
+            <summary>
+            Registers a super admin account
+            </summary>
+            <param name="accountDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.AccountController.AdminLogin(API.Dtos.Account.LoginDto)">
+            <summary>
+            Logs admin into system
+            </summary>
+            <param name="loginInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartItemController.CreateAsync(API.Dtos.CartItem.AddCartItemRequestDto)">
+            <summary>
+            Creates a new cart item
+            </summary>
+            <param name="cartItemDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartItemController.GetById(System.Int32)">
+            <summary>
+            Gets a cart item by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartItemController.GetByUserId(System.String)">
+            <summary>
+            Gets cart items by customer ID
+            </summary>
+            <param name="user_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartItemController.UpdateById(API.Dtos.CartItem.CartItemDto)">
+            <summary>
+            Updates an existing cart item
+            </summary>
+            <param name="cartItemDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.CartItemController.DeleteById(System.Int32)">
+            <summary>
+            Deletes a cart item by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetAllAsync">
+            <summary>
+            Returns all products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Finds product by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserProductController.GetAllAsync">
+            <summary>
+            Returns all user products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserProductController.GetByUserId(System.String)">
+            <summary>
+            Gets user products by customer ID
+            </summary>
+            <param name="user_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserProductController.GetById(System.Int32)">
+            <summary>
+            Gets a user product by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:API.Controllers.UserProductController.AddUserProductAsync(API.Dtos.UserProduct.AddUserProductRequestDto)">
+            <summary>
+            Creates a new user product
+            </summary>
+            <param name="userProductDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
